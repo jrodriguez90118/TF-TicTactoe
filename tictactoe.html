@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Josh's Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+	<script language="javascript" type="text/javascript" src="tictactoe.js"></script>
+</head>
+<h1 align="center">Tic Tac Toe</h1>
+<div class="wrapper">
+	<button class="button" id="btnClear" onclick="btnClear()">Clear Board</button>
+</div>
+<h3 id="gameStatus" align="center" style="color: red;">It is X's turn!</h3>
+
+<table id="ttt_table" align="center">
+	<tr>
+		<td id="pos1" onclick="posClick(this.id)" class="r1 c1 s1"></td>
+		<td id="pos2" onclick="posClick(this.id)" class="r1 c2"></td>
+		<td id="pos3" onclick="posClick(this.id)" class="r1 c3 s2"></td>
+	</tr>
+	<tr>
+		<td id="pos4" onclick="posClick(this.id)" class="r2 c1"></td>
+		<td id="pos5" onclick="posClick(this.id)" class="r2 c2 s1 s2"></td>
+		<td id="pos6" onclick="posClick(this.id)" class="r2 c3"></td>
+	</tr>
+	<tr>
+		<td id="pos7" onclick="posClick(this.id)" class="r3 c1 s2"></td>
+		<td id="pos8" onclick="posClick(this.id)" class="r3 c2"></td>
+		<td id="pos9" onclick="posClick(this.id)" class="r3 c3 s1"></td>
+	</tr>
+</table>
+
+<p>By: Josh M. Rodriguez <br>
+</p>
+
+<style type="text/css">
+
+</style>
+
+<body>
+
+</body>
+</html>

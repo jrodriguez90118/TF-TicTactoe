@@ -1,0 +1,36 @@
+table, th, td {
+margin: auto;
+border-collapse: collapse;
+height: 100px;
+width: 350px;
+size: auto;
+text-align: center;
+font-size: 50px;
+}
+button {
+	margin: 0 auto;
+}
+p {
+	text-align: center;
+}
+.wrapper {
+	text-align: center;
+}
+
+#gameStatus {
+	color: #000;
+}
+
+#pos1, #pos2, #pos4, #pos5 {
+	border-right: 5px solid	#000;
+	border-bottom: 5px solid #000;
+}
+
+#pos3, #pos6 {
+	border-bottom: 5px solid #000;
+}
+
+#pos7, #pos8 {
+	border-right: 5px solid	#000;
+}
+
